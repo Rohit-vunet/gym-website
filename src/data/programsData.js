@@ -16,7 +16,8 @@ export const programsData = [
     ),
     heading: "Strength Training",
     details:
-      "In this program, you are trained to improve your strength through many exercises.",
+    
+    "In this program, you are trained to improve your strength through many exercises.",
   },
   {
     image: <svg width="16" height="17" viewBox="0 0 16 17"  xmlns="http://www.w3.org/2000/svg">

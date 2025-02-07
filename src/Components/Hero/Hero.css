@@ -1,4 +1,4 @@
-/* Hero Section */
+
 .hero {
     display: flex;
     justify-content: space-between;
@@ -9,7 +9,7 @@
     position: relative;
 }
 
-/* Left Section */
+
 .left-h {
     flex: 3;
     display: flex;
@@ -17,7 +17,7 @@
     gap: 2rem;
 }
 
-/* The Best Fitness Club Banner */
+
 .the-best-ad {
     display: flex;
     align-items: center;
@@ -47,7 +47,6 @@
     position: relative;
 }
 
-/* Hero Text */
 .hero-text {
     display: flex;
     flex-direction: column;
@@ -71,7 +70,6 @@
     color: lightgray;
 }
 
-/* Figures Section */
 .figures {
     display: flex;
     gap: 2rem;
@@ -97,13 +95,13 @@
     font-size: 0.9rem;
 }
 
-/* Right Section */
+
 .right-h {
     flex: 1;
     position: relative;
 }
 
-/* Hero Buttons */
+
 .hero-buttons {
     display: flex;
     gap: 1rem;
@@ -125,7 +123,7 @@
     color: black;
 }
 
-/* Join Button */
+
 .right-h .join-btn {
     position: absolute;
     right: 3rem;
@@ -133,7 +131,7 @@
     color: black;
 }
 
-/* Heart Rate Section */
+
 .heart-rate {
     display: flex;
     flex-direction: column;
@@ -161,7 +159,7 @@
     width: 2rem;
 }
 
-/* Hero Images */
+
 .hero-image {
     position: absolute;
     top: 10rem;
@@ -177,7 +175,7 @@
     width: 15rem;
 }
 
-/* Calories Section */
+
 .calories {
     display: flex;
     gap: 1rem;

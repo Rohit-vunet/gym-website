@@ -1,12 +1,15 @@
 import React from 'react';
+import Header from './Components/Header/Header';
+import Hero from './Components/Hero/Hero';
 import './App.css';
-import Hero from './Components/Hero';
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <Hero/>
+    <div>
+      <Header />
+      <Hero />
     </div>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,106 @@
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2rem;
+    color: white;
+    background: linear-gradient(to right, #141414, #1d1d1d);
+}
+
+/* Left Section */
+.left-h {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Best Fitness Club Banner */
+.the-best-ad {
+    display: flex;
+    align-items: center;
+    background-color: #363d32;
+    border-radius: 2rem;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    position: relative;
+    width: fit-content;
+    color: white;
+}
+
+/* Small Box Before Text */
+.the-best-ad > div {
+    position: absolute;
+    width: 5.4rem;
+    height: 80%;
+    left: 8px;
+    background-color: var(--orange);
+    border-radius: 3rem;
+    z-index: 1;
+}
+
+.the-best-ad > span {
+    z-index: 2;
+    position: relative;
+}
+
+/* Hero Text */
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    line-height: 1.2;
+}
+
+/* Stroke Effect */
+.stroke-text {
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+
+/* Description Text */
+.hero-text > div:nth-of-type(3) {
+    font-size: 1rem;
+    font-weight: 500;
+    max-width: 400px;
+    color: lightgray;
+}
+
+/* Figures Section */
+.figures {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.figures > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.figures > div > span:nth-of-type(1) {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.figures > div > span:nth-of-type(2) {
+    color: lightgray;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.right-h {
+    flex: 1;
+    text-align: center;
+}
+

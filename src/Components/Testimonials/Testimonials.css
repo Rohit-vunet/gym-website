@@ -1,0 +1,118 @@
+.testimonials {
+    display: flex;
+    gap: 3rem;
+    padding: 4rem 8rem;
+    background: #333;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.left-t {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+    max-width: 50%;
+}
+
+.test-header {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.gray-text {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.white-text {
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+}
+
+.review-text {
+    text-transform: none;
+    text-align: justify;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.reviewer {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.highlight {
+    color: var(--orange);
+    font-weight: bold;
+}
+
+
+.right-t {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+.image-container {
+    position: relative;
+    width: 18rem;
+    height: 20rem;
+}
+
+.image-container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    left: 10px;
+    background: var(--orange);
+    z-index: -2;
+}
+
+.image-container::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: -1;
+}
+
+.testimonial-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.arrows {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.arrows img {
+    width: 2rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.arrows img:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,24 @@
+.footer-container{
+    position: relative;
+}
+.footer-container>hr{
+    border:1px solid var(--lightgray)
+}
+.footer{
+    padding: 1rem 2rem;
+    background-color: gray;
+    flex-direction: column;
+    gap:4rem;
+    justify-content: center;
+    align-items: center;
+}
+.logo-f{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer>img{
+  height:50px;
+  width:50px;
+}

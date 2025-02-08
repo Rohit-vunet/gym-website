@@ -5,7 +5,9 @@ import './App.css';
 import Programs from './Components/Programs/Programs';
 import Reasons from './Components/Reasons/Reasons';
 import Plans  from './Components/Plans/Plans';
-
+import Testimonials from './Components/Testimonials/Testimonials';
+import Join from './Components/Join/Join';
+import Footer from './Components/Footer/footer';
 const App = () => {
   return (
     <div>
@@ -14,6 +16,9 @@ const App = () => {
       <Programs/>
       <Reasons/>
       <Plans/>
+      <Testimonials/>
+      <Join/>
+      <Footer/>
     </div>
   );
 };

@@ -4,11 +4,13 @@ import { testimonialsData } from "../../data/testimonialsData";
 import leftArrow from "../../assets/leftArrow.png";
 import rightArrow from "../../assets/rightArrow.png";
 
+
 const Testimonials = () => {
   const [selected, setSelected] = useState(0);
   const length = testimonialsData.length;
 
-  const handlePrev = () => {
+
+    const handlePrev = () => {
     setSelected((prev) => (prev === 0 ? length - 1 : prev - 1));
   };
 

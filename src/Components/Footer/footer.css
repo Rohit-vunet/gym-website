@@ -11,12 +11,19 @@
     gap:4rem;
     justify-content: center;
     align-items: center;
+    height:20rem;
 }
-.logo-f{
-    background-color: #333;
+.social-links{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap:4rem;
+}
+.social-links>img{
+    width: 2rem;
+    height:2rem;
+    cursor: pointer;
+}
+.logo-f>img{
+    width: 10rem;
 }
 .footer>img{
   height:50px;

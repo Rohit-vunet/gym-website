@@ -37,3 +37,12 @@
   align-items: center;
   justify-content:center;
 }
+.blur {
+  width: 200px;  /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+  background-color: rgba(0, 0, 255, 0.5); /* Semi-transparent blue */
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px); /* Adjust the blur size */
+  z-index: -1; /* Ensure it's behind other elements */
+}

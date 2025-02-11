@@ -1,4 +1,4 @@
-/* make variables */
+
 :root {
   --lightgray: #D9D9D9;
   --gray: #9c9c9c;
@@ -38,11 +38,11 @@
   justify-content:center;
 }
 .blur {
-  width: 200px;  /* Adjust as needed */
-  height: 200px; /* Adjust as needed */
-  background-color: rgba(0, 0, 255, 0.5); /* Semi-transparent blue */
+  width: 200px; 
+  height: 200px; 
+  background-color: rgba(0, 0, 255, 0.5); 
   position: absolute;
   border-radius: 50%;
-  filter: blur(100px); /* Adjust the blur size */
-  z-index: -1; /* Ensure it's behind other elements */
+  filter: blur(100px); 
+  z-index: -1;
 }

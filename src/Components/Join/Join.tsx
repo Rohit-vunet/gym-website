@@ -3,6 +3,7 @@ import './Join.css';
 import emailjs from '@emailjs/browser';
 
 const Join = () => {
+  
   const form = useRef<HTMLFormElement>(null);
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
@@ -42,6 +43,7 @@ const Join = () => {
 
 
       <div className="right-j">
+      {/* ref = allowing direct access to form elements in JavaScript */}
         <form ref={form} className="email-container" onSubmit={sendEmail}>
           <input type="email" name="User_email" placeholder="Enter your email address" required />
           <button type="submit" className="btn btn-j">Join now</button>

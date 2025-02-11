@@ -21,7 +21,7 @@ const Testimonials = () => {
 
   return (
     <div className="testimonials">
-      {/* Left Side */}
+     
       <div className="left-t">
         <span className="test-header">TESTIMONIALS</span>
         <span className="gray-text">WHAT THEY</span>
@@ -48,9 +48,9 @@ const Testimonials = () => {
         </motion.span>
       </div>
 
-      {/* Right Side */}
+    
       <div className="right-t">
-        {/* Image Container with Animation */}
+     
         <div className="image-container">
           <motion.img
             key={selected}
@@ -64,7 +64,7 @@ const Testimonials = () => {
           />
         </div>
 
-        {/* Arrows */}
+       
         <div className="arrows">
           <img src={leftArrow} alt="Left Arrow" onClick={handlePrev} />
           <img src={rightArrow} alt="Right Arrow" onClick={handleNext} />
